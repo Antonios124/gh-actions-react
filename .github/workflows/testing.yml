@@ -6,7 +6,7 @@ jobs:
         steps:
             - name: Get the repository code
             # run: echo
-              uses: actions/checkout@v4
+              uses: actions/checkout@v3
             - name: Install dependecies
               run: npm ci
             - name: Test application
